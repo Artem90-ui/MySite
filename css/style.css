@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Tera&family=Poppins:ital,wght@1,300&family=Sriracha&display=swap');
+
+header,footer{
+  background: black;
+  color: white;
+}
+h1{
+  font-family:'family=Sriracha', sans-serif;
+  font-weight: 800;
+}
+i{
+  font-family:'Lexend Tera', sans-serif;
+  font-weight: 1000;
+  background: #93afdb;
+}
+
+ul{
+  background: #053802;
+}
+
+
+nav li.active, nav li.active:before {
+ background-color: rgba(0, 0, 0, 0.1);
+ border-radius: 5px;
+}
+h6{
+  padding-left: 110px;
+  padding-top: 40px;
+}
+
+ul{
+  background: #0d6e08;
+}
+.nav-item:hover {
+  background: #0d3803;
+}
+
+.nav-link, .nav-link:hover {
+  color: #FFFFFF;
+  font: bold 20px sans-serif;
+}
+li{
+  height: 50px;
+}
+p{
+  font-family:'Poppins', sans-serif;
+    font-weight: 500;
+}
+h4{
+  color: white;
+  background: black;
+}
+h5{
+  color: white;
+  background: black;
+}
