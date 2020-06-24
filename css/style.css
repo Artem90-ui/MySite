@@ -8,11 +8,7 @@ h1{
   font-family:'family=Sriracha', sans-serif;
   font-weight: 800;
 }
-i{
-  font-family:'Lexend Tera', sans-serif;
-  font-weight: 1000;
-  background: #93afdb;
-}
+
 
 ul{
   background: #053802;
@@ -46,11 +42,6 @@ p{
   font-family:'Poppins', sans-serif;
     font-weight: 500;
 }
-h4{
-  color: white;
-  background: black;
-}
-h5{
-  color: white;
-  background: black;
+body{
+  background: #9da2a6;
 }

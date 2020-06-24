@@ -27,9 +27,9 @@
      <h1>Подборка боевиков и главных персонажей фильмов </h1>
    </div>
   </header>
-
   <!-- Navbar -->
   <ul class="nav justify-content-center">
+
     <li class="nav-item">
       <a class="nav-link" href="index.html">
         <i class="fas fa-home"></i>
@@ -45,29 +45,39 @@
     </li>
     <li class="nav-item active">
       <a class="nav-link" href="Жан-Клод Вам Дамм.html">
+        <i class="fas fa-user"></i>
         Жан-Клод Ван Дамм
       </a>
     </li>
     <li class="nav-item active">
       <a class="nav-link" href="Брюс Ли.html">
+        <i class="fas fa-user"></i>
         Брюс Ли
       </a>
     </li>
     <li class="nav-item active">
       <a class="nav-link" href="Джеки Чан.html">
+        <i class="fas fa-user"></i>
         Джеки Чан
       </a>
     </li>
     <li class="nav-item active">
       <a class="nav-link" href="Арнольд Шварценеггер.html">
+        <i class="fas fa-user"></i>
       Арнольд Шварценеггер
       </a>
     </li>
     <li class="nav-item active">
       <a class="nav-link" href="Сильвестр Сталлоне.html">
+        <i class="fas fa-user"></i>
         Сильвестр Сталлоне
       </a>
     </li>
+
+                <form class="form-inline my-2 my-lg-0">
+             <input class="form-control mr-sm-2" type="search" placeholder="Поиск" aria-label="Search">
+             <button class="btn btn-warning my-2 my-sm-0" type="submit">Поиск</button>
+           </form>
   </ul>
 
 <!-- /Navbar -->
@@ -292,6 +302,38 @@
              </section>
 
 
+                   <!-- МОДАЛЬНОЕ ОКНО -->
+                      <div class="row m-3 p-3 d-flex justify-content-around">
+                        <!-- кнопка которая вызовет окно -->
+                        <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+                         Кликни сюда
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Подсказка</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                              </div>
+                              <div class="modal-body">
+                                Если вам интересно как снимался Терминатор 2, то кликните на синию кнопку.
+                              </div>
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Закрыть</button>
+                                  <a href="https://www.youtube.com/watch?v=Ped-s-pNuxs" class="btn btn-primary">Видео</a>
+
+
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- /modal -->
+                      </div>
+
+
     <div class="row py-3 d-flex justify-content-center  border-top">
    <h2>Лучшие фильмы ,на мой взгляд, с участием Арнольда Шварценеггера</h2>
    </div>
@@ -354,38 +396,35 @@
 
 
 
- <!-- FOOTER -->
- <footer class="border-top">
-   <div class="container">
-     <!-- Logo - Posts - Nav -->
-     <div class="row py-3 text-light">
+    <!-- FOOTER -->
+    <footer class="border-top">
+      <div class="container">
+        <!-- Logo - Posts - Nav -->
+        <div class="row py-3 text-light">
+          <div class="col-md-4 ">
+            <img src="img\логотип.png" alt="Logo" width="250" class="img-fluid">
+          </div>
+          <!-- About -->
+          <div class="col-md-4">
+            <h5>Автор</h5>
+            <p>
+            Арутюнов Артём автор этого веб-сайта.Я расскажу про лучших актёров и фильмы боевики на моё усмотрение.
+            </p>
+          </div>
+          <!-- Contact me -->
+          <div class="col-md-4">
+            <h5>Мои контакты</h5>
+            <p>
+              Если вы заинтересованы в работе со мной, просто напишите в Telegram
+              <br><strong><i class="fab fa-telegram-plane"></i> : <a href="https://t.me/ArtemArutunov" class="text-white">Арутюнов Артём</a></strong>
+            </p>
+          </div>
 
-       <!-- About -->
-       <div class="col-md-6">
-         <h5>About</h5>
-         <p>
-         Арутюнов Артём автор этого веб-сайта.Я расскажу про лучших актёров и фильмы боевики на моё усмотрение.
-         </p>
-       </div>
-       <!-- Contact me -->
-       <div class="col-md-6">
-         <h5>Contact me</h5>
-         <p>
-           Если вы заинтересованы в работе со мной, просто напишите по электронной почте
-           <br><strong>Telegram: <a href="https://t.me/ArtemArutunov" class="text-white">Арутюнов Артём</a></strong>
-         </p>
-       </div>
+        </div>
+        <div class="row py-3 d-flex justify-content-center  border-top">
+          <small class="d-block text-light">Авторские права &copy;2020 АРУТЮНОВ АРТЁМ Блог</small>
+        </div>
 
-     </div>
-     <!-- /row -->
-
-
-     <!-- Copyright -->
-     <div class="row py-3 d-flex justify-content-center  border-top">
-       <small class="d-block text-light">Авторские права &copy;2020 АРУТЮНОВ АРТЁМ Блог</small>
-     </div>
-
-   </footer>
-
+      </footer>
 </body>
 </html>
